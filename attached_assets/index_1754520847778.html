@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CyberNL - Cybersecurity Consulting</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">CyberNL</div>
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="home">Home</a></li>
+        <li><a href="about.html" data-i18n="about">About Us</a></li>
+        <li><a href="services.html" data-i18n="services">Services</a></li>
+        <li><a href="contact.html" data-i18n="contact">Contact</a></li>
+      </ul>
+      <div class="lang-toggle">
+        <button id="lang-en">EN</button>
+        <button id="lang-nl">NL</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1 data-i18n="hero_title">Your Cybersecurity Experts</h1>
+      <p data-i18n="hero_tagline">Protecting your digital world with top-tier solutions.</p>
+      <button class="btn-blue" data-i18n="learn_more">Learn More</button>
+    </section>
+
+    <section class="services">
+      <h2 data-i18n="services_header">Our Services</h2>
+      <div class="service-item" data-aos="fade-up">
+        <h3 data-i18n="audit">Security Audits</h3>
+        <p data-i18n="audit_desc">Comprehensive analysis of your infrastructure.</p>
+      </div>
+      <div class="service-item" data-aos="fade-up">
+        <h3 data-i18n="training">Staff Training</h3>
+        <p data-i18n="training_desc">We empower your team to recognize and prevent threats.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <section class="contact">
+      <h2 data-i18n="contact_us">Contact Us</h2>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <textarea name="message" placeholder="Your message..." required></textarea>
+        <button type="submit" class="btn-blue" data-i18n="send">Send</button>
+      </form>
+    </section>
+  </footer>
+</body>
+</html>
